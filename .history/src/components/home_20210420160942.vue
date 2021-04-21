@@ -13,11 +13,11 @@ export default {
     return {
       target: { a: 1, b: 2 },
       source: { b: 4, c: 5 },
-      // returnedTarget: Object.assign(this.target, this.source)
+      returnedTarget: Object.assign(this.target, this.source)
     }
   },
   mounted() {
-    // console.log(this.returnedTarget );
+    console.log(this.returnedTarget );
   }
 }
 </script>
